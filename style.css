@@ -1,0 +1,99 @@
+/*
+ *  Theme Name:   TwentyTwelve CottageFix Customization
+ *  Description:  Twenty Twelve Child Theme
+ *  Author:       Kevin Somervill
+ *  Author URI:   http://example.com
+ *  Template:     twentytwelve
+ *  Template Version: 1.9
+ *  Version:      1.0.4
+ *  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ *  Text Domain:  twenty-twelve-child
+ */
+
+@import url("../twentytwelve/style.css");
+
+/* =Theme customization starts here
+ * -------------------------------------------------------------- */
+
+body .site {
+  padding: 0 30px;
+  padding: 0 2.1428571428rem;
+  margin-top: 12px;
+  margin-top: 0.85714285725rem;
+  margin-bottom: 24px;
+  margin-bottom: 1.714285715rem;
+}
+
+.entry-header .entry-title {
+  margin-bottom: 0.7rem;
+}
+
+.header-image {
+  margin-top: 12px;
+  margin-top: 0.85714285725rem;
+}
+
+.main-navigation {
+  margin-top: 12px;
+  margin-top: 0.85714285725rem;
+}
+
+.post-thumb div {
+  margin-left:-10px; 
+  padding-left:-10px; 
+  margin-right:10px; 
+  
+  float:left;
+}
+
+.attachment-cf-featured-thumb {
+  margin-top: 10px;
+  margin-top: 0.71428571429rem;
+  margin-right: 12px;
+  margin-right: 0.85714285725rem;
+  float: left;
+}
+
+.site-content article {
+  margin-bottom: 36;
+  margin-bottom: 2.57142857143rem;
+  padding-bottom: 12px;
+  padding-bottom: 0.85714285725rem;
+}
+
+.widget-area {width:300px}
+
+#blogher-head .ad-toggle {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+  display: none;
+}
+
+.adsbygoogle {
+  display: inline-block;
+  background-color: #FFFFFF;
+}
+
+@media screen and (max-width: 600px) {
+  .ad-toggle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .site-content {
+    width: 100%;
+  }
+}
+
+blockquote {
+  font: 14px/22px normal helvetica, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 2px solid #ccc;
+} 
+
